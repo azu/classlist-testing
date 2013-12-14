@@ -30,7 +30,7 @@
     "testling": {
         "html": "test/index.html",
         "browsers": {
-            "ie": [10],
+            "ie": [10, 11],
             "ff": [25, 26],
             "chrome": [30],
             "safari": [6.1]
