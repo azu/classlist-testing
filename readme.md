@@ -2,6 +2,8 @@
 
 Test [classList](http://caniuse.com/#feat=classlist "Show all tables# classList") handling multiple arguments.
 
+[![browser support](https://ci.testling.com/azu/classlist-testing.png)](https://ci.testling.com/azu/classlist-testing)
+
 ## Usage
 
 ``` sh
