@@ -1,0 +1,32 @@
+{
+    "name": "classlist-testing",
+    "version": "1.0.0",
+    "description": "classList multiple arguments",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "testem ci -P 5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/azu/classlist-testing.git"
+    },
+    "keywords": [
+        "browser",
+        "dom"
+    ],
+    "author": "azu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/azu/classlist-testing/issues"
+    },
+    "homepage": "https://github.com/azu/classlist-testing",
+    "browsers": {
+        "ie": [10, 11],
+        "ff": [25, 26],
+        "chrome": [30],
+        "safari": [6.1]
+    }
+}

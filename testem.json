@@ -1,0 +1,25 @@
+{
+    "framework": "mocha",
+    "test_page": "test/index.html",
+    "on_start": {
+        "command": "npm install"
+    },
+    "launchers": {
+        "SL_IE_10": {
+            "command": "saucie --browserNameSL='internet explorer' --versionSL='7' --platformSL='Windows XP'",
+            "protocol": "tap"
+        }
+    },
+    "launch_in_dev": [
+        "Chrome",
+        "Firefox",
+        "PhantomJS"
+    ],
+    "launch_in_ci": [
+        "Chrome",
+        "Firefox",
+        "Safari",
+        "Opera",
+        "SL_IE_10"
+    ]
+}
