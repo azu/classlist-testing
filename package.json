@@ -24,7 +24,7 @@
     },
     "homepage": "https://github.com/azu/classlist-testing",
     "testling": {
-        "html": "test/index.html",
+        "html": "test.html",
         "browsers": {
             "ie": [10, 11],
             "ff": [25, 26],

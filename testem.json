@@ -1,6 +1,6 @@
 {
     "framework": "mocha",
-    "test_page": "test/index.html",
+    "test_page": "test.html",
     "on_start": {
         "command": "npm install"
     },
